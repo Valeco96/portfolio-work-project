@@ -50,8 +50,27 @@ h1 {
 .btn-recognition {
   background: var(--button-color);
   color: whitesmoke;
-  border-radius: 4px;
+  border-radius: 6px;
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+}
+
+.btn-launch {
+  color: var(--button-color);
+  border: 2px solid var(--button-color);
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
+
+h2 {
+  font-size: 44px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
 }
