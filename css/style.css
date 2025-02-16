@@ -3,7 +3,7 @@
   --default-font-family: "Poppins", serif;
   --head-text-color: rgb(39, 1, 86);
   --background-color: #f1ebff;
-  --button-color: #6c66da;
+  --button-color: #5e5ab6;
 }
 
 body {
@@ -19,6 +19,7 @@ h5,
 h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
+  color: var(--head-text-color);
 }
 
 .hero {
@@ -56,6 +57,10 @@ h1 {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+}
+
+.btn-recognition:hover {
+  color: var(--head-text-color);
 }
 
 .btn-launch {
