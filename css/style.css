@@ -11,6 +11,34 @@ body {
   background-color: rgb(251, 246, 254);
 }
 
+nav {
+  padding: 20px 0;
+  line-height: 38px;
+  color: var(--button-color);
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 38px;
+  margin-left: 14px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #5e5ab6;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover {
+  color: rgb(71, 28, 118);
+}
+
 h1,
 h2,
 h3,
