@@ -27,17 +27,21 @@
       src="https://kit.fontawesome.com/1d75e38b03.js"
       crossorigin="anonymous"
     ></script>
-    <title>Portfolio</title>
+    <meta
+      name="description"
+      content="Valentina is a Junior Front-end Engineer based in the Netherlands, learning about coding."
+    />
+    <title>Front-end Developer - Valentina Correale</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
         <p class="d-none d-md-block">Valentina Correale</p>
         <ul>
-          <li class="active"><a href="/">Homepage</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Projects</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Homepage</a></li>
+          <li><a href="/about.html" title="About Valentina">About</a></li>
+          <li><a href="/work.html" title="Projects">Projects</a></li>
+          <li><a href="/contact.html" title="Contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -46,7 +50,14 @@
       <h3>👋🏻Hi, I am</h3>
       <h1>Valentina Correale</h1>
       <h2 class="m-5">Junior Front-end Developer based in the Netherlands</h2>
-      <div><a href="#" class="btn btn-recognition">Contact me</a></div>
+      <div>
+        <a
+          href="/contact.html"
+          class="btn btn-recognition"
+          title="Contact Valentina"
+          >Contact me</a
+        >
+      </div>
       <br />
       <i class="fa-solid fa-music"></i>
     </div>
@@ -54,7 +65,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-md-block">
-          <img src="images/weather.png" class="img-fluid m-4 mt-5" alt="" />
+          <img
+            src="images/weather.png"
+            class="img-fluid m-4 mt-5"
+            alt="Weather project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -63,7 +78,9 @@
               Project about the display of the weather forecast and conditions
               according to the selected city in the world. Enjoy!
             </p>
-            <a href="#" class="btn btn-launch">Learn more</a>
+            <a href="/work.html" class="btn btn-launch" title="Learn more"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -75,11 +92,17 @@
               Project about the display of different hours within diverse cities
               in the world. Let's check the time!
             </p>
-            <a href="#" class="btn btn-launch">Learn more</a>
+            <a href="/work.html" class="btn btn-launch" title="Learn more"
+              >Learn more</a
+            >
           </div>
         </div>
         <div class="col d-none d-md-block">
-          <img src="images/world-clock.png" class="img-fluid m-4 mt-5" alt="" />
+          <img
+            src="images/world-clock.png"
+            class="img-fluid m-4 mt-5"
+            alt="World clock project preview"
+          />
         </div>
       </div>
       <div class="row mb-5">
@@ -87,7 +110,7 @@
           <img
             src="images/fables-generator.png"
             class="img-fluid m-4 mt-5"
-            alt=""
+            alt="Fables generator preview"
           />
         </div>
         <div class="col">
@@ -97,39 +120,67 @@
               Project about the display of an AI generate fairy tail, when the
               main character or feature is inserted in the search input. Enjoy!
             </p>
-            <a href="#" class="btn btn-launch">Learn more</a>
+            <a href="/work.html" class="btn btn-launch" title="Learn more"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
       <footer>
         <div
-          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+          class="contact-box d-flex justify-content-between mb-5 d-none d-lg-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p>Let's work together</p>
           </div>
-          <div><a href="" class="btn btn-recognition footer">Contact me</a></div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-recognition footer"
+              title="Contact Valentina"
+              >Contact me</a
+            >
+          </div>
         </div>
         <div class="d-flex justify-content-center mt-4 mb-5">
-          <a href="mailto:correalev2@gmail.com" class="email-link"
+          <a
+            href="mailto:correalev2@gmail.com"
+            class="email-link"
+            title="Email Valentina"
             >correalev2@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/_vaaliiii_/" target="_blank"
+          <a
+            href="https://www.instagram.com/_vaaliiii_/"
+            target="_blank"
+            title="Instagram profile"
             ><i class="fa-brands fa-instagram"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/valentina-correale/"
             target="_blank"
+            title="LinkedIn profile"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
-          <a href="https://github.com/Valeco96?tab=repositories" target="_blank"
+          <a
+            href="https://github.com/Valeco96?tab=repositories"
+            target="_blank"
+            title="Github repositories"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
       </footer>
     </div>
+    <p class="text-center mt-5">
+      <i class="fa-solid fa-music"></i>
+      This project was coded by Valentina Correale, and is
+      <a
+        href="https://github.com/Valeco96/portfolio-work-project"
+        target="_blank"
+        >open-sourced</a
+      >
+    </p>
   </body>
 </html>
